@@ -10,12 +10,17 @@ import UIKit
 class ViewController: UIViewController {
 
 
-
+    let label = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+
         let alert = UIAlertController(title: "", message: "", preferredStyle: .alert)
         let action = UIAlertAction(title: "", style: .default)
+
+
+
 
         alert.addAction(action)
 
