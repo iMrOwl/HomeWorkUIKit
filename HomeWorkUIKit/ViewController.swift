@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let alert = UIAlertController(title: "", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "", style: .default)
+
+        alert.addAction(action)
+
+        present(alert, animated: true)
     }
 
 
